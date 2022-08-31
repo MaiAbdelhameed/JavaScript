@@ -13,7 +13,6 @@ let xDirection = 2
 let yDirection = 2
 const scoreDisplay = document.querySelector('#score')
 let score=0
-const startButton = document.querySelector('.startButton')
 
 //create Block class
 class Block {
@@ -103,14 +102,13 @@ drawBall()
 
 
 //move ball
-/* function moveBall() {
+function moveBall() {
     ballPosition[0]+=xDirection
     ballPosition[1]+=yDirection
     drawBall()
     checkCollisions()
-} */
-
-startButton.addEventListener("click", moveBall)
+} 
+ 
 
 timerId = setInterval(moveBall,30)
 

@@ -16,7 +16,7 @@
     position:absolute;
     width:100px;
     height:20px;
-    background-color: rgb(217, 255, 0) ;
+    background-color: red ;
 }
 
 .ball{
@@ -36,14 +36,4 @@
 #score{
     font-size: 23px;
     margin-right: 20px;
-}
-
-#startButton{
-    background-color: rgb(214, 24, 24);
-    border:none;
-    border-radius: 4px;
-    padding: 5px 10px 5px 10px;
-    color:white;
-    font-size: 20px;
-    cursor: pointer;
 }
