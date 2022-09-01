@@ -1,3 +1,3 @@
 # JavaScript-Games
 
-These are just basic JavaScript games to practise and have fun. :)
+These are just basic JavaScript retro games to practise and have fun. :)
